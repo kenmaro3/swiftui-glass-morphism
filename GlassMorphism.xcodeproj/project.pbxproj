@@ -11,6 +11,7 @@
 		0A2082F62A581AE9007B98F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2082F52A581AE9007B98F0 /* ContentView.swift */; };
 		0A2082F82A581AEB007B98F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2082F72A581AEB007B98F0 /* Assets.xcassets */; };
 		0A2082FB2A581AEB007B98F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2082FA2A581AEB007B98F0 /* Preview Assets.xcassets */; };
+		0A2083032A581B00007B98F0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2083022A581B00007B98F0 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0A2082F52A581AE9007B98F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A2082F72A581AEB007B98F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A2082FA2A581AEB007B98F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A2083022A581B00007B98F0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		0A2082F22A581AE9007B98F0 /* GlassMorphism */ = {
 			isa = PBXGroup;
 			children = (
+				0A2083012A581AF5007B98F0 /* View */,
 				0A2082F32A581AE9007B98F0 /* GlassMorphismApp.swift */,
 				0A2082F52A581AE9007B98F0 /* ContentView.swift */,
 				0A2082F72A581AEB007B98F0 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				0A2082FA2A581AEB007B98F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A2083012A581AF5007B98F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A2083022A581B00007B98F0 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A2082F62A581AE9007B98F0 /* ContentView.swift in Sources */,
+				0A2083032A581B00007B98F0 /* Home.swift in Sources */,
 				0A2082F42A581AE9007B98F0 /* GlassMorphismApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
